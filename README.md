@@ -66,9 +66,11 @@ El proyecto esta desarrollado con Laravel. Es una api para ser consumida desde R
 
 ### Las URLs de las APIs:
 
-- https://dev.koshucasweb.com/api/hoteles
+- https://dev.koshucasweb.com/api/hoteles : Esta esta publica, para poder acceder sin permisos
 
-- https://dev.koshucasweb.com/api/habitaciones
+- https://dev.koshucasweb.com/api/habitaciones : Esta esta priivada y solo se puede accerder por un token valido.
+
+  Se realizó de esta manera para mostrar mis habilidades de varias maneras.
 
   Se crearon 2 endpoints para las APIs, una para obtener los hoteles y otra para obtener las habitaciones. Las mismas tienen sus respectivos controladores y modelos. Adicional cada una tiene sus endpoint para CRUD: post, get, put, delete.
 
